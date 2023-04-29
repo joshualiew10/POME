@@ -78,7 +78,7 @@ def main():
         BOD_in = st.sidebar.slider('BOD',23000,47000,30000)
         SS_in = st.sidebar.slider('SS',13000,55000,35000)
         TS_in = st.sidebar.slider('TS',22000,55000,35000)
-        Temp = st.sidebar.slider('Temperature', 37, 48, 41)
+        Temp = st.sidebar.slider('Temperature', 37, 48, 41,0.1,"%f")
         pH_in = st.sidebar.slider('pH', 6.8, 7.3, 7.0)
         OLR = st.sidebar.slider('OLR', 0.86, 1.70, 1.1, 0.01,"%f")
         HRT = st.sidebar.slider('HRT', 35, 85, 50)
